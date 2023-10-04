@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/Image">
+        <file>icons/black.png</file>
+        <file>icons/clear.png</file>
+        <file>icons/fivepx.png</file>
+        <file>icons/green.png</file>
+        <file>icons/ninepx.png</file>
+        <file>icons/pain.png</file>
+        <file>icons/red.png</file>
+        <file>icons/save.png</file>
+        <file>icons/sevenpx.png</file>
+        <file>icons/threepx.png</file>
+        <file>icons/white.png</file>
+        <file>icons/yellow.png</file>
+    </qresource>
+</RCC>

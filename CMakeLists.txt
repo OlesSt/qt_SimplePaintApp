@@ -19,6 +19,8 @@ add_executable(qt_SimplePaintApp
   paint.cpp
   paint.ui
 
+  res.qrc
+
 )
 target_link_libraries(qt_SimplePaintApp Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Gui)
 

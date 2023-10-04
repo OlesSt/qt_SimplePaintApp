@@ -10,17 +10,17 @@ Paint::Paint(QWidget *parent)
 {
     ui->setupUi(this);
 
-    connect(ui->actionSave, SIGNAL(triggered()), this, SLOT(actionSave()));
-    connect(ui->actionClear, SIGNAL(triggered()), this, SLOT(actionClear()));
-    connect(ui->action3px, SIGNAL(triggered()), this, SLOT(action3px()));
-    connect(ui->action5px, SIGNAL(triggered()), this, SLOT(action5px()));
-    connect(ui->action7px, SIGNAL(triggered()), this, SLOT(action7px()));
-    connect(ui->action9px, SIGNAL(triggered()), this, SLOT(action9px()));
-    connect(ui->actionBlack, SIGNAL(triggered()), this, SLOT(actionBlack()));
-    connect(ui->actionGreen, SIGNAL(triggered()), this, SLOT(actionGreen()));
-    connect(ui->actionRed, SIGNAL(triggered()), this, SLOT(actionRed()));
-    connect(ui->actionYellow, SIGNAL(triggered()), this, SLOT(actionYellow()));
-    connect(ui->actionErase, SIGNAL(triggered()), this, SLOT(actionErase()));
+    connect (ui->actionSave,    SIGNAL(triggered()), this, SLOT(actionSave()));
+    connect (ui->actionClear,   SIGNAL(triggered()), this, SLOT(actionClear()));
+    connect (ui->action3px,     SIGNAL(triggered()), this, SLOT(action3px()));
+    connect (ui->action5px,     SIGNAL(triggered()), this, SLOT(action5px()));
+    connect (ui->action7px,     SIGNAL(triggered()), this, SLOT(action7px()));
+    connect (ui->action9px,     SIGNAL(triggered()), this, SLOT(action9px()));
+    connect (ui->actionBlack,   SIGNAL(triggered()), this, SLOT(actionBlack()));
+    connect (ui->actionGreen,   SIGNAL(triggered()), this, SLOT(actionGreen()));
+    connect (ui->actionRed,     SIGNAL(triggered()), this, SLOT(actionRed()));
+    connect (ui->actionYellow,  SIGNAL(triggered()), this, SLOT(actionYellow()));
+    connect (ui->actionErase,   SIGNAL(triggered()), this, SLOT(actionErase()));
 
     image = QImage(this->size(), QImage::Format_RGB32);
     image.fill(Qt::white);

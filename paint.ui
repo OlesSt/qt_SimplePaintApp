@@ -80,61 +80,107 @@
    <addaction name="actionErase"/>
   </widget>
   <action name="actionSave">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Image/icons/save.png</normaloff>:/Image/icons/save.png</iconset>
+   </property>
    <property name="text">
     <string>Save</string>
    </property>
   </action>
   <action name="actionClear">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Image/icons/clear.png</normaloff>:/Image/icons/clear.png</iconset>
+   </property>
    <property name="text">
     <string>Clear</string>
    </property>
   </action>
   <action name="action3px">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Image/icons/threepx.png</normaloff>:/Image/icons/threepx.png</iconset>
+   </property>
    <property name="text">
     <string>3px</string>
    </property>
   </action>
   <action name="action5px">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Image/icons/fivepx.png</normaloff>:/Image/icons/fivepx.png</iconset>
+   </property>
    <property name="text">
     <string>5px</string>
    </property>
   </action>
   <action name="action7px">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Image/icons/sevenpx.png</normaloff>:/Image/icons/sevenpx.png</iconset>
+   </property>
    <property name="text">
     <string>7px</string>
    </property>
   </action>
   <action name="action9px">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Image/icons/ninepx.png</normaloff>:/Image/icons/ninepx.png</iconset>
+   </property>
    <property name="text">
     <string>9px</string>
    </property>
   </action>
   <action name="actionBlack">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Image/icons/black.png</normaloff>:/Image/icons/black.png</iconset>
+   </property>
    <property name="text">
     <string>Black</string>
    </property>
   </action>
   <action name="actionGreen">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Image/icons/green.png</normaloff>:/Image/icons/green.png</iconset>
+   </property>
    <property name="text">
     <string>Green</string>
    </property>
   </action>
   <action name="actionRed">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Image/icons/red.png</normaloff>:/Image/icons/red.png</iconset>
+   </property>
    <property name="text">
     <string>Red</string>
    </property>
   </action>
   <action name="actionYellow">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Image/icons/yellow.png</normaloff>:/Image/icons/yellow.png</iconset>
+   </property>
    <property name="text">
     <string>Yellow</string>
    </property>
   </action>
   <action name="actionErase">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Image/icons/white.png</normaloff>:/Image/icons/white.png</iconset>
+   </property>
    <property name="text">
     <string>Erase</string>
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
  <connections/>
 </ui>
