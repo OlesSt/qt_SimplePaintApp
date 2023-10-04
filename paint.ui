@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSave"/>
+    <addaction name="actionClear"/>
+   </widget>
+   <widget class="QMenu" name="menuBrush_Size">
+    <property name="title">
+     <string>Brush Size</string>
+    </property>
+    <addaction name="action3px"/>
+    <addaction name="action5px"/>
+    <addaction name="action7px"/>
+    <addaction name="action9px"/>
+   </widget>
+   <widget class="QMenu" name="menuColor">
+    <property name="title">
+     <string>Color</string>
+    </property>
+    <addaction name="actionBlack"/>
+    <addaction name="actionGreen"/>
+    <addaction name="actionRed"/>
+    <addaction name="actionYellow"/>
+    <addaction name="separator"/>
+    <addaction name="actionErase"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuBrush_Size"/>
+   <addaction name="menuColor"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionSave"/>
+   <addaction name="actionClear"/>
+   <addaction name="separator"/>
+   <addaction name="action3px"/>
+   <addaction name="action5px"/>
+   <addaction name="action7px"/>
+   <addaction name="action9px"/>
+   <addaction name="separator"/>
+   <addaction name="actionBlack"/>
+   <addaction name="actionGreen"/>
+   <addaction name="actionRed"/>
+   <addaction name="actionYellow"/>
+   <addaction name="separator"/>
+   <addaction name="actionErase"/>
+  </widget>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionClear">
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </action>
+  <action name="action3px">
+   <property name="text">
+    <string>3px</string>
+   </property>
+  </action>
+  <action name="action5px">
+   <property name="text">
+    <string>5px</string>
+   </property>
+  </action>
+  <action name="action7px">
+   <property name="text">
+    <string>7px</string>
+   </property>
+  </action>
+  <action name="action9px">
+   <property name="text">
+    <string>9px</string>
+   </property>
+  </action>
+  <action name="actionBlack">
+   <property name="text">
+    <string>Black</string>
+   </property>
+  </action>
+  <action name="actionGreen">
+   <property name="text">
+    <string>Green</string>
+   </property>
+  </action>
+  <action name="actionRed">
+   <property name="text">
+    <string>Red</string>
+   </property>
+  </action>
+  <action name="actionYellow">
+   <property name="text">
+    <string>Yellow</string>
+   </property>
+  </action>
+  <action name="actionErase">
+   <property name="text">
+    <string>Erase</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
